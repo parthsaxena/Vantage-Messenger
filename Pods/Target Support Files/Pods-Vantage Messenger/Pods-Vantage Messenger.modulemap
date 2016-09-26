@@ -1,0 +1,6 @@
+framework module Pods_Vantage_Messenger {
+  umbrella header "Pods-Vantage Messenger-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22407B0F4D0901789C78FDC4 /* Pods_Vantage_MessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA202111294C2E83C2BE162 /* Pods_Vantage_MessengerTests.framework */; };
+		8889EFAA9B5F361F7862278B /* Pods_Vantage_MessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37E78BC80FAC4736F16DE4F /* Pods_Vantage_MessengerUITests.framework */; };
+		8BBA46751D9636790049F254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46741D9636790049F254 /* AppDelegate.swift */; };
+		8BBA46771D9636790049F254 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46761D9636790049F254 /* SetupViewController.swift */; };
+		8BBA467A1D9636790049F254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBA46781D9636790049F254 /* Main.storyboard */; };
+		8BBA467C1D9636790049F254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBA467B1D9636790049F254 /* Assets.xcassets */; };
+		8BBA467F1D9636790049F254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBA467D1D9636790049F254 /* LaunchScreen.storyboard */; };
+		8BBA468A1D96367A0049F254 /* Vantage_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46891D96367A0049F254 /* Vantage_MessengerTests.swift */; };
+		8BBA46951D96367A0049F254 /* Vantage_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46941D96367A0049F254 /* Vantage_MessengerUITests.swift */; };
+		8BBA46B01D9787A50049F254 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46AF1D9787A50049F254 /* LoginViewController.swift */; };
+		8BBA46B21D97A8590049F254 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BBA46B11D97A8580049F254 /* GoogleService-Info.plist */; };
+		8BBA46B41D97AB720049F254 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46B31D97AB720049F254 /* SetupProfileViewController.swift */; };
+		8BBA46CD1D9839BB0049F254 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46B71D9839BA0049F254 /* IQNSArray+Sort.swift */; };
+		8BBA46CE1D9839BB0049F254 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46B81D9839BA0049F254 /* IQUIScrollView+Additions.swift */; };
+		8BBA46CF1D9839BB0049F254 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46B91D9839BA0049F254 /* IQUITextFieldView+Additions.swift */; };
+		8BBA46D01D9839BB0049F254 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46BA1D9839BA0049F254 /* IQUIView+Hierarchy.swift */; };
+		8BBA46D11D9839BB0049F254 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46BB1D9839BA0049F254 /* IQUIViewController+Additions.swift */; };
+		8BBA46D21D9839BB0049F254 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46BC1D9839BA0049F254 /* IQUIWindow+Hierarchy.swift */; };
+		8BBA46D31D9839BB0049F254 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46BE1D9839BA0049F254 /* IQKeyboardManagerConstants.swift */; };
+		8BBA46D41D9839BB0049F254 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46BF1D9839BA0049F254 /* IQKeyboardManagerConstantsInternal.swift */; };
+		8BBA46D51D9839BB0049F254 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46C01D9839BA0049F254 /* IQKeyboardManager.swift */; };
+		8BBA46D61D9839BB0049F254 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46C21D9839BA0049F254 /* IQKeyboardReturnKeyHandler.swift */; };
+		8BBA46D71D9839BB0049F254 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46C41D9839BA0049F254 /* IQTextView.swift */; };
+		8BBA46D81D9839BB0049F254 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46C61D9839BB0049F254 /* IQBarButtonItem.swift */; };
+		8BBA46D91D9839BB0049F254 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46C71D9839BB0049F254 /* IQPreviousNextView.swift */; };
+		8BBA46DA1D9839BB0049F254 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46C81D9839BB0049F254 /* IQTitleBarButtonItem.swift */; };
+		8BBA46DB1D9839BB0049F254 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46C91D9839BB0049F254 /* IQToolbar.swift */; };
+		8BBA46DC1D9839BB0049F254 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA46CA1D9839BB0049F254 /* IQUIView+IQKeyboardToolbar.swift */; };
+		8BBA46DD1D9839BB0049F254 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BBA46CC1D9839BB0049F254 /* IQKeyboardManager.bundle */; };
+		B1AAE3ADE7BE07AC35727872 /* Pods_Vantage_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB11E28F446653E0F487A3D /* Pods_Vantage_Messenger.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BBA46861D96367A0049F254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BBA46691D9636790049F254 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBA46701D9636790049F254;
+			remoteInfo = "Vantage Messenger";
+		};
+		8BBA46911D96367A0049F254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BBA46691D9636790049F254 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBA46701D9636790049F254;
+			remoteInfo = "Vantage Messenger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E757A48BD89F7B87C04E7A /* Pods-Vantage Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vantage Messenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vantage Messenger/Pods-Vantage Messenger.release.xcconfig"; sourceTree = "<group>"; };
+		01F44EEFEEC4F2FDA19236BF /* Pods-Vantage MessengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vantage MessengerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vantage MessengerTests/Pods-Vantage MessengerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B0B3B4844A615244DD52820 /* Pods-Vantage MessengerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vantage MessengerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vantage MessengerUITests/Pods-Vantage MessengerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7AA202111294C2E83C2BE162 /* Pods_Vantage_MessengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vantage_MessengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBA46711D9636790049F254 /* Vantage Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vantage Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBA46741D9636790049F254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BBA46761D9636790049F254 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		8BBA46791D9636790049F254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BBA467B1D9636790049F254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BBA467E1D9636790049F254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BBA46801D9636790049F254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBA46851D96367A0049F254 /* Vantage MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vantage MessengerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBA46891D96367A0049F254 /* Vantage_MessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vantage_MessengerTests.swift; sourceTree = "<group>"; };
+		8BBA468B1D96367A0049F254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBA46901D96367A0049F254 /* Vantage MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vantage MessengerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBA46941D96367A0049F254 /* Vantage_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vantage_MessengerUITests.swift; sourceTree = "<group>"; };
+		8BBA46961D96367A0049F254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBA46AF1D9787A50049F254 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8BBA46B11D97A8580049F254 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8BBA46B31D97AB720049F254 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
+		8BBA46B71D9839BA0049F254 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		8BBA46B81D9839BA0049F254 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		8BBA46B91D9839BA0049F254 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		8BBA46BA1D9839BA0049F254 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		8BBA46BB1D9839BA0049F254 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		8BBA46BC1D9839BA0049F254 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		8BBA46BE1D9839BA0049F254 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		8BBA46BF1D9839BA0049F254 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		8BBA46C01D9839BA0049F254 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		8BBA46C11D9839BA0049F254 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		8BBA46C21D9839BA0049F254 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		8BBA46C41D9839BA0049F254 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		8BBA46C61D9839BB0049F254 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		8BBA46C71D9839BB0049F254 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		8BBA46C81D9839BB0049F254 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		8BBA46C91D9839BB0049F254 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		8BBA46CA1D9839BB0049F254 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		8BBA46CC1D9839BB0049F254 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		8FE18591FE13D5F4B13940C9 /* Pods-Vantage MessengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vantage MessengerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vantage MessengerTests/Pods-Vantage MessengerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE10878AF349921A9CD81C16 /* Pods-Vantage MessengerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vantage MessengerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vantage MessengerUITests/Pods-Vantage MessengerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCB11E28F446653E0F487A3D /* Pods_Vantage_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vantage_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF53FA06B3DF7DD03B3A0CD /* Pods-Vantage Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vantage Messenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vantage Messenger/Pods-Vantage Messenger.debug.xcconfig"; sourceTree = "<group>"; };
+		E37E78BC80FAC4736F16DE4F /* Pods_Vantage_MessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vantage_MessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BBA466E1D9636790049F254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AAE3ADE7BE07AC35727872 /* Pods_Vantage_Messenger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBA46821D96367A0049F254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22407B0F4D0901789C78FDC4 /* Pods_Vantage_MessengerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBA468D1D96367A0049F254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8889EFAA9B5F361F7862278B /* Pods_Vantage_MessengerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8014ED0CF2076879177BC148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCF53FA06B3DF7DD03B3A0CD /* Pods-Vantage Messenger.debug.xcconfig */,
+				00E757A48BD89F7B87C04E7A /* Pods-Vantage Messenger.release.xcconfig */,
+				8FE18591FE13D5F4B13940C9 /* Pods-Vantage MessengerTests.debug.xcconfig */,
+				01F44EEFEEC4F2FDA19236BF /* Pods-Vantage MessengerTests.release.xcconfig */,
+				AE10878AF349921A9CD81C16 /* Pods-Vantage MessengerUITests.debug.xcconfig */,
+				6B0B3B4844A615244DD52820 /* Pods-Vantage MessengerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BBA46681D9636790049F254 = {
+			isa = PBXGroup;
+			children = (
+				8BBA46731D9636790049F254 /* Vantage Messenger */,
+				8BBA46881D96367A0049F254 /* Vantage MessengerTests */,
+				8BBA46931D96367A0049F254 /* Vantage MessengerUITests */,
+				8BBA46721D9636790049F254 /* Products */,
+				8014ED0CF2076879177BC148 /* Pods */,
+				CDD854F8F82926A63DBDFC9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BBA46721D9636790049F254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46711D9636790049F254 /* Vantage Messenger.app */,
+				8BBA46851D96367A0049F254 /* Vantage MessengerTests.xctest */,
+				8BBA46901D96367A0049F254 /* Vantage MessengerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BBA46731D9636790049F254 /* Vantage Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46B51D9839BA0049F254 /* IQKeyboardManagerSwift */,
+				8BBA46741D9636790049F254 /* AppDelegate.swift */,
+				8BBA46761D9636790049F254 /* SetupViewController.swift */,
+				8BBA46781D9636790049F254 /* Main.storyboard */,
+				8BBA46B31D97AB720049F254 /* SetupProfileViewController.swift */,
+				8BBA46AF1D9787A50049F254 /* LoginViewController.swift */,
+				8BBA467B1D9636790049F254 /* Assets.xcassets */,
+				8BBA467D1D9636790049F254 /* LaunchScreen.storyboard */,
+				8BBA46801D9636790049F254 /* Info.plist */,
+				8BBA46B11D97A8580049F254 /* GoogleService-Info.plist */,
+			);
+			path = "Vantage Messenger";
+			sourceTree = "<group>";
+		};
+		8BBA46881D96367A0049F254 /* Vantage MessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46891D96367A0049F254 /* Vantage_MessengerTests.swift */,
+				8BBA468B1D96367A0049F254 /* Info.plist */,
+			);
+			path = "Vantage MessengerTests";
+			sourceTree = "<group>";
+		};
+		8BBA46931D96367A0049F254 /* Vantage MessengerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46941D96367A0049F254 /* Vantage_MessengerUITests.swift */,
+				8BBA46961D96367A0049F254 /* Info.plist */,
+			);
+			path = "Vantage MessengerUITests";
+			sourceTree = "<group>";
+		};
+		8BBA46B51D9839BA0049F254 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46B61D9839BA0049F254 /* Categories */,
+				8BBA46BD1D9839BA0049F254 /* Constants */,
+				8BBA46C01D9839BA0049F254 /* IQKeyboardManager.swift */,
+				8BBA46C11D9839BA0049F254 /* IQKeyboardManagerSwift.h */,
+				8BBA46C21D9839BA0049F254 /* IQKeyboardReturnKeyHandler.swift */,
+				8BBA46C31D9839BA0049F254 /* IQTextView */,
+				8BBA46C51D9839BA0049F254 /* IQToolbar */,
+				8BBA46CB1D9839BB0049F254 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		8BBA46B61D9839BA0049F254 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46B71D9839BA0049F254 /* IQNSArray+Sort.swift */,
+				8BBA46B81D9839BA0049F254 /* IQUIScrollView+Additions.swift */,
+				8BBA46B91D9839BA0049F254 /* IQUITextFieldView+Additions.swift */,
+				8BBA46BA1D9839BA0049F254 /* IQUIView+Hierarchy.swift */,
+				8BBA46BB1D9839BA0049F254 /* IQUIViewController+Additions.swift */,
+				8BBA46BC1D9839BA0049F254 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8BBA46BD1D9839BA0049F254 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46BE1D9839BA0049F254 /* IQKeyboardManagerConstants.swift */,
+				8BBA46BF1D9839BA0049F254 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8BBA46C31D9839BA0049F254 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46C41D9839BA0049F254 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		8BBA46C51D9839BA0049F254 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46C61D9839BB0049F254 /* IQBarButtonItem.swift */,
+				8BBA46C71D9839BB0049F254 /* IQPreviousNextView.swift */,
+				8BBA46C81D9839BB0049F254 /* IQTitleBarButtonItem.swift */,
+				8BBA46C91D9839BB0049F254 /* IQToolbar.swift */,
+				8BBA46CA1D9839BB0049F254 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		8BBA46CB1D9839BB0049F254 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA46CC1D9839BB0049F254 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDD854F8F82926A63DBDFC9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCB11E28F446653E0F487A3D /* Pods_Vantage_Messenger.framework */,
+				7AA202111294C2E83C2BE162 /* Pods_Vantage_MessengerTests.framework */,
+				E37E78BC80FAC4736F16DE4F /* Pods_Vantage_MessengerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BBA46701D9636790049F254 /* Vantage Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBA46991D96367A0049F254 /* Build configuration list for PBXNativeTarget "Vantage Messenger" */;
+			buildPhases = (
+				3DF50E19EDA96AF01279D4A8 /* [CP] Check Pods Manifest.lock */,
+				8BBA466D1D9636790049F254 /* Sources */,
+				8BBA466E1D9636790049F254 /* Frameworks */,
+				8BBA466F1D9636790049F254 /* Resources */,
+				666CC8FD7CF45BD000B72C85 /* [CP] Embed Pods Frameworks */,
+				089FBA371CFD0949542497AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vantage Messenger";
+			productName = "Vantage Messenger";
+			productReference = 8BBA46711D9636790049F254 /* Vantage Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BBA46841D96367A0049F254 /* Vantage MessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBA469C1D96367A0049F254 /* Build configuration list for PBXNativeTarget "Vantage MessengerTests" */;
+			buildPhases = (
+				5E154737C299F082A735596C /* [CP] Check Pods Manifest.lock */,
+				8BBA46811D96367A0049F254 /* Sources */,
+				8BBA46821D96367A0049F254 /* Frameworks */,
+				8BBA46831D96367A0049F254 /* Resources */,
+				58EFB22660E12E82D7BD154C /* [CP] Embed Pods Frameworks */,
+				72EF4BBE3DACF813D7B74AE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BBA46871D96367A0049F254 /* PBXTargetDependency */,
+			);
+			name = "Vantage MessengerTests";
+			productName = "Vantage MessengerTests";
+			productReference = 8BBA46851D96367A0049F254 /* Vantage MessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BBA468F1D96367A0049F254 /* Vantage MessengerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBA469F1D96367A0049F254 /* Build configuration list for PBXNativeTarget "Vantage MessengerUITests" */;
+			buildPhases = (
+				91FAB7E72E84EAB46C901B99 /* [CP] Check Pods Manifest.lock */,
+				8BBA468C1D96367A0049F254 /* Sources */,
+				8BBA468D1D96367A0049F254 /* Frameworks */,
+				8BBA468E1D96367A0049F254 /* Resources */,
+				F691E62D0B9AE678F0565D1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BBA46921D96367A0049F254 /* PBXTargetDependency */,
+			);
+			name = "Vantage MessengerUITests";
+			productName = "Vantage MessengerUITests";
+			productReference = 8BBA46901D96367A0049F254 /* Vantage MessengerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BBA46691D9636790049F254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Socify;
+				TargetAttributes = {
+					8BBA46701D9636790049F254 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F8629F2ZNQ;
+						ProvisioningStyle = Automatic;
+					};
+					8BBA46841D96367A0049F254 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F8629F2ZNQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BBA46701D9636790049F254;
+					};
+					8BBA468F1D96367A0049F254 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F8629F2ZNQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BBA46701D9636790049F254;
+					};
+				};
+			};
+			buildConfigurationList = 8BBA466C1D9636790049F254 /* Build configuration list for PBXProject "Vantage Messenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BBA46681D9636790049F254;
+			productRefGroup = 8BBA46721D9636790049F254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BBA46701D9636790049F254 /* Vantage Messenger */,
+				8BBA46841D96367A0049F254 /* Vantage MessengerTests */,
+				8BBA468F1D96367A0049F254 /* Vantage MessengerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BBA466F1D9636790049F254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBA46DD1D9839BB0049F254 /* IQKeyboardManager.bundle in Resources */,
+				8BBA467F1D9636790049F254 /* LaunchScreen.storyboard in Resources */,
+				8BBA46B21D97A8590049F254 /* GoogleService-Info.plist in Resources */,
+				8BBA467C1D9636790049F254 /* Assets.xcassets in Resources */,
+				8BBA467A1D9636790049F254 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBA46831D96367A0049F254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBA468E1D96367A0049F254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089FBA371CFD0949542497AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vantage Messenger/Pods-Vantage Messenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF50E19EDA96AF01279D4A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58EFB22660E12E82D7BD154C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vantage MessengerTests/Pods-Vantage MessengerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E154737C299F082A735596C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		666CC8FD7CF45BD000B72C85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vantage Messenger/Pods-Vantage Messenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72EF4BBE3DACF813D7B74AE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vantage MessengerTests/Pods-Vantage MessengerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FAB7E72E84EAB46C901B99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F691E62D0B9AE678F0565D1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vantage MessengerUITests/Pods-Vantage MessengerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BBA466D1D9636790049F254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBA46D01D9839BB0049F254 /* IQUIView+Hierarchy.swift in Sources */,
+				8BBA46D31D9839BB0049F254 /* IQKeyboardManagerConstants.swift in Sources */,
+				8BBA46DB1D9839BB0049F254 /* IQToolbar.swift in Sources */,
+				8BBA46D61D9839BB0049F254 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				8BBA46B41D97AB720049F254 /* SetupProfileViewController.swift in Sources */,
+				8BBA46CD1D9839BB0049F254 /* IQNSArray+Sort.swift in Sources */,
+				8BBA46D71D9839BB0049F254 /* IQTextView.swift in Sources */,
+				8BBA46D51D9839BB0049F254 /* IQKeyboardManager.swift in Sources */,
+				8BBA46D11D9839BB0049F254 /* IQUIViewController+Additions.swift in Sources */,
+				8BBA46B01D9787A50049F254 /* LoginViewController.swift in Sources */,
+				8BBA46DA1D9839BB0049F254 /* IQTitleBarButtonItem.swift in Sources */,
+				8BBA46D21D9839BB0049F254 /* IQUIWindow+Hierarchy.swift in Sources */,
+				8BBA46D81D9839BB0049F254 /* IQBarButtonItem.swift in Sources */,
+				8BBA46771D9636790049F254 /* SetupViewController.swift in Sources */,
+				8BBA46751D9636790049F254 /* AppDelegate.swift in Sources */,
+				8BBA46CF1D9839BB0049F254 /* IQUITextFieldView+Additions.swift in Sources */,
+				8BBA46CE1D9839BB0049F254 /* IQUIScrollView+Additions.swift in Sources */,
+				8BBA46D91D9839BB0049F254 /* IQPreviousNextView.swift in Sources */,
+				8BBA46DC1D9839BB0049F254 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				8BBA46D41D9839BB0049F254 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBA46811D96367A0049F254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBA468A1D96367A0049F254 /* Vantage_MessengerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBA468C1D96367A0049F254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBA46951D96367A0049F254 /* Vantage_MessengerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BBA46871D96367A0049F254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BBA46701D9636790049F254 /* Vantage Messenger */;
+			targetProxy = 8BBA46861D96367A0049F254 /* PBXContainerItemProxy */;
+		};
+		8BBA46921D96367A0049F254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BBA46701D9636790049F254 /* Vantage Messenger */;
+			targetProxy = 8BBA46911D96367A0049F254 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BBA46781D9636790049F254 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBA46791D9636790049F254 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BBA467D1D9636790049F254 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBA467E1D9636790049F254 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BBA46971D96367A0049F254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BBA46981D96367A0049F254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BBA469A1D96367A0049F254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF53FA06B3DF7DD03B3A0CD /* Pods-Vantage Messenger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8629F2ZNQ;
+				INFOPLIST_FILE = "Vantage Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Socify.Vantage-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8BBA469B1D96367A0049F254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E757A48BD89F7B87C04E7A /* Pods-Vantage Messenger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8629F2ZNQ;
+				INFOPLIST_FILE = "Vantage Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Socify.Vantage-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8BBA469D1D96367A0049F254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE18591FE13D5F4B13940C9 /* Pods-Vantage MessengerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F8629F2ZNQ;
+				INFOPLIST_FILE = "Vantage MessengerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Socify.Vantage-MessengerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vantage Messenger.app/Vantage Messenger";
+			};
+			name = Debug;
+		};
+		8BBA469E1D96367A0049F254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F44EEFEEC4F2FDA19236BF /* Pods-Vantage MessengerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F8629F2ZNQ;
+				INFOPLIST_FILE = "Vantage MessengerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Socify.Vantage-MessengerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vantage Messenger.app/Vantage Messenger";
+			};
+			name = Release;
+		};
+		8BBA46A01D96367A0049F254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE10878AF349921A9CD81C16 /* Pods-Vantage MessengerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F8629F2ZNQ;
+				INFOPLIST_FILE = "Vantage MessengerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Socify.Vantage-MessengerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Vantage Messenger";
+			};
+			name = Debug;
+		};
+		8BBA46A11D96367A0049F254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0B3B4844A615244DD52820 /* Pods-Vantage MessengerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F8629F2ZNQ;
+				INFOPLIST_FILE = "Vantage MessengerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Socify.Vantage-MessengerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Vantage Messenger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BBA466C1D9636790049F254 /* Build configuration list for PBXProject "Vantage Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBA46971D96367A0049F254 /* Debug */,
+				8BBA46981D96367A0049F254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BBA46991D96367A0049F254 /* Build configuration list for PBXNativeTarget "Vantage Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBA469A1D96367A0049F254 /* Debug */,
+				8BBA469B1D96367A0049F254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BBA469C1D96367A0049F254 /* Build configuration list for PBXNativeTarget "Vantage MessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBA469D1D96367A0049F254 /* Debug */,
+				8BBA469E1D96367A0049F254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BBA469F1D96367A0049F254 /* Build configuration list for PBXNativeTarget "Vantage MessengerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBA46A01D96367A0049F254 /* Debug */,
+				8BBA46A11D96367A0049F254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BBA46691D9636790049F254 /* Project object */;
+}

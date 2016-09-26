@@ -1,0 +1,6 @@
+framework module Pods_Vantage_MessengerTests {
+  umbrella header "Pods-Vantage MessengerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
